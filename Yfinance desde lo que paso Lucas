@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "source": [
+        "#importar libreria de Yfinance\r\n",
+        "import yfinance as yf"
+      ],
+      "outputs": [],
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "source": [
+        "# importar libreria de panda para trabajar con datos tabulados\r\n",
+        "import pandas as pd\r\n",
+        "\r\n",
+        "# Mostrar datos en tabla de archivo CSV\r\n",
+        "\"\"\"\r\n",
+        "datos= pd.read_csv('C:/Users/Lucas/Desktop/TEF.csv')\r\n",
+        "print(datos) ----> TODAS LAS FILAS\r\n",
+        "\"\"\"\r\n",
+        "datos= pd.read_csv('C:/Users/Lucas/Desktop/TEF.csv', header= None)\r\n",
+        "print(datos.head()) #----> SOLO PRIMERAS FILAS\r\n"
+      ],
+      "outputs": [],
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "orig_nbformat": 4,
+    "language_info": {
+      "name": "python",
+      "version": "3.9.1",
+      "mimetype": "text/x-python",
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "pygments_lexer": "ipython3",
+      "nbconvert_exporter": "python",
+      "file_extension": ".py"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3.9.1 64-bit"
+    },
+    "interpreter": {
+      "hash": "f47a5ab19bc45083382657f6f2388be666e731531973f00c5e26ff8c66213130"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
